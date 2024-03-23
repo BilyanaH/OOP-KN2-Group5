@@ -1,2 +1,6 @@
-﻿  UserInfo.cpp
+﻿  LicenseKey.cpp
+  main.cpp
+  Generating Code...
+x64\Debug\Line.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\Point.obj : warning LNK4042: object specified more than once; extras ignored
   Exercise04.vcxproj -> D:\Uni\ООП\Семинар\OOP-KN2-Group5\Exercise04\x64\Debug\Exercise04.exe

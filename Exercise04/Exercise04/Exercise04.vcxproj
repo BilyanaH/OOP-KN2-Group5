@@ -127,10 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BrowserTab.cpp" />
+    <ClCompile Include="LicenseKey.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Line.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Point.h" />
     <ClCompile Include="UserInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BrowserTab.h" />
+    <ClInclude Include="LicenseKey.h" />
     <ClInclude Include="UserInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
