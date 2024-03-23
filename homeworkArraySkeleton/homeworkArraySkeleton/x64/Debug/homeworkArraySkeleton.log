@@ -1,0 +1,4 @@
+﻿  dynamic.cpp
+D:\Uni\ООП\Семинар\homeworkArraySkeleton\homeworkArraySkeleton\dynamic.cpp(112,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\Uni\ООП\Семинар\homeworkArraySkeleton\homeworkArraySkeleton\dynamic.cpp(117,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  homeworkArraySkeleton.vcxproj -> D:\Uni\ООП\Семинар\homeworkArraySkeleton\x64\Debug\homeworkArraySkeleton.exe
