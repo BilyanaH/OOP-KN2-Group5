@@ -92,7 +92,7 @@ void InstaProfile::operator+=( InstaPost post)
 
 InstaPost InstaProfile::operator[](int index) const
 {
-	if (isEmpty(index)) {
+	if (index>=size || isEmpty(index)) {
 		throw std::exception("Error");
 	}
 	return *posts[index];
@@ -106,8 +106,9 @@ bool InstaProfile::isEmpty(int index) const
 	return false;
 }
 
-InstaProfile::InstaProfile(const char* username,const char* fileName, int size)
+InstaProfile::InstaProfile(const char* username, const char* fileName, int size) : username{ new char[strlen(username) + 1] }, posts{ new InstaPost * [size] {nullptr} }
 { 
+	this->size = size;
 	strcpy(this->username, username);
 	std::ifstream is(fileName, std::ios::binary);
 
@@ -120,7 +121,6 @@ InstaProfile::InstaProfile(const char* username,const char* fileName, int size)
 	is.seekg(0, std::ios::end);
 	int fileSize = is.tellg();
 	is.seekg(0, std::ios::beg);
-	this->size = size;
 	int fileCount	= fileSize / sizeof(InstaPost);
 	if (fileCount < size)
 	{
@@ -130,7 +130,7 @@ InstaProfile::InstaProfile(const char* username,const char* fileName, int size)
 
 	is.read((char*)posts, fileCount * sizeof(InstaPost));
 
-	for (size_t i = 0; i <= size; i++)
+	for (size_t i = 0; i < fileCount; i++)
 	{
 		this->posts[i] = new InstaPost(posts[i]);
 	}

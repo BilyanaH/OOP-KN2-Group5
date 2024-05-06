@@ -1,2 +1,7 @@
-﻿  main.cpp
+﻿  InstaProfile.cpp
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\InstaPost\InstaProfile.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\InstaPost\InstaProfile.cpp(38,21): warning C4018: '<': signed/unsigned mismatch
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\InstaPost\InstaProfile.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\InstaPost\InstaProfile.cpp(95,11): warning C4018: '>=': signed/unsigned mismatch
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\InstaPost\InstaProfile.cpp(122,15): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
   InstaPost.vcxproj -> D:\Uni\ООП\Семинар\OOP-KN2-Group5\InstaPost\x64\Debug\Instagram.exe

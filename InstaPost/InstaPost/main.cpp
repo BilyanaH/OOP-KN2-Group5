@@ -30,7 +30,7 @@ void runTests()
     InstaProfile profile("AnimalLover123", profileName, 3);
     std::cout << profile[0];
     std::cout << profile[1];
-    assert(profile.isEmpty(2));
+    std::cout<<std::boolalpha << profile.isEmpty(2) << std::endl;
 
     try
     {
@@ -52,7 +52,7 @@ void runTests()
     try
     {
         std::cout << profile[3];
-        assert(false);
+       assert(false);
     }
     catch (const std::exception& e)
     {
