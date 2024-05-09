@@ -1,0 +1,5 @@
+﻿  KitchenFormat.cpp
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(65,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(76,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(16): warning C4715: 'KitchenFormat::FindPersonWithId': not all control paths return a value
+  PrepExam2.vcxproj -> D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\x64\Debug\PrepExam2.exe
