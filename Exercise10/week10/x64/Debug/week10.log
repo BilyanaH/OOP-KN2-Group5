@@ -1,0 +1,22 @@
+﻿  Counter.h
+  LimitedCounter.cpp
+  LimitedTwowayCounter.h
+  Semaphore.cpp
+  TwowayCounter.cpp
+  main.cpp
+  Generating Code...
+x64\Debug\Counter.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\LimitedTwowayCounter.obj : warning LNK4042: object specified more than once; extras ignored
+LimitedCounter.obj : error LNK2019: unresolved external symbol "public: __cdecl Counter::Counter(void)" (??0Counter@@QEAA@XZ) referenced in function "public: __cdecl LimitedCounter::LimitedCounter(unsigned int)" (??0LimitedCounter@@QEAA@I@Z)
+Semaphore.obj : error LNK2001: unresolved external symbol "public: __cdecl Counter::Counter(void)" (??0Counter@@QEAA@XZ)
+LimitedCounter.obj : error LNK2019: unresolved external symbol "public: __cdecl Counter::Counter(int)" (??0Counter@@QEAA@H@Z) referenced in function "public: __cdecl LimitedCounter::LimitedCounter(unsigned int,int)" (??0LimitedCounter@@QEAA@IH@Z)
+LimitedCounter.obj : error LNK2019: unresolved external symbol "public: __cdecl Counter::Counter(int,unsigned int)" (??0Counter@@QEAA@HI@Z) referenced in function "public: __cdecl LimitedCounter::LimitedCounter(unsigned int,int,unsigned int)" (??0LimitedCounter@@QEAA@IHI@Z)
+LimitedCounter.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl Counter::increment(void)" (?increment@Counter@@UEAAXXZ) referenced in function "public: virtual void __cdecl LimitedCounter::increment(void)" (?increment@LimitedCounter@@UEAAXXZ)
+LimitedCounter.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __cdecl Counter::getTotal(void)const " (?getTotal@Counter@@UEBAIXZ)
+Semaphore.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __cdecl Counter::getTotal(void)const " (?getTotal@Counter@@UEBAIXZ)
+LimitedCounter.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __cdecl Counter::getStep(void)const " (?getStep@Counter@@UEBAIXZ)
+Semaphore.obj : error LNK2001: unresolved external symbol "public: virtual unsigned int __cdecl Counter::getStep(void)const " (?getStep@Counter@@UEBAIXZ)
+Semaphore.obj : error LNK2019: unresolved external symbol "public: __cdecl LimitedTwowayCounter::LimitedTwowayCounter(unsigned int,unsigned int,int,unsigned int)" (??0LimitedTwowayCounter@@QEAA@IIHI@Z) referenced in function "public: __cdecl Semaphore::Semaphore(void)" (??0Semaphore@@QEAA@XZ)
+Semaphore.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl LimitedTwowayCounter::increment(void)" (?increment@LimitedTwowayCounter@@UEAAXXZ) referenced in function "[thunk]:public: virtual void __cdecl LimitedTwowayCounter::increment`vtordisp{4294967292,0}' (void)" (?increment@LimitedTwowayCounter@@$4PPPPPPPM@A@EAAXXZ)
+Semaphore.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl LimitedTwowayCounter::decrement(void)" (?decrement@LimitedTwowayCounter@@UEAAXXZ) referenced in function "public: void __cdecl Semaphore::wait(void)" (?wait@Semaphore@@QEAAXXZ)
+D:\Uni\ООП\Практикум\week10\x64\Debug\week10.exe : fatal error LNK1120: 9 unresolved externals

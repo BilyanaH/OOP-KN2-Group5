@@ -1,5 +1,18 @@
-﻿  KitchenFormat.cpp
+﻿  FMIChallenge.cpp
+  FMIChallenge.h
+  KitchenFormat.cpp
 D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(65,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(76,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  KitchenFormat.h
+  Person.cpp
+  TVFormat.cpp
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\TVFormat.cpp(128,12): warning C4018: '<': signed/unsigned mismatch
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\TVFormat.cpp(135,16): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\Person.cpp(45): warning C4715: 'Person::GetId': not all control paths return a value
 D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\PrepExam2\KitchenFormat.cpp(16): warning C4715: 'KitchenFormat::FindPersonWithId': not all control paths return a value
+  LINK : D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\x64\Debug\PrepExam2.exe not found or not built by the last incremental link; performing full link
+x64\Debug\FMIChallenge.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\KitchenFormat.obj : warning LNK4042: object specified more than once; extras ignored
   PrepExam2.vcxproj -> D:\Uni\ООП\Семинар\OOP-KN2-Group5\PrepExam2\x64\Debug\PrepExam2.exe
